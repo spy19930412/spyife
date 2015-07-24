@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>write and see</title>
+	<!-- css -->
+	<link href="css/style.css" rel='stylesheet' type='text/css'/>
+	<link href="css/reset.css" rel='stylesheet' type='text/css'/>
+	<!-- js -->
+	<script type="text/javascript" src="js/zepto.js"></script>
+	<script type="text/javascript" src="js/touch.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<!-- iconfont -->
+	<link rel="stylesheet" href="css/iconfont/demo.css">
+	<link rel="stylesheet" href="css/iconfont/iconfont.css">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1">
+	<meta charset="utf-8"></head>
+<body>
+	<div class="page">
+		<header>记账本</header>
+		<section class="subHeader">记一笔</section>
+		<section class="panel" id="panel">
+			<a href="#" class="apanel" onclick="changeIcon()"> <i class="icon iconfont">&#xe606;</i>
+				<div class="name">收入</div>
+			</a>
+			<a href="#" class="apanel middle" onclick="changeIcon()"> <i class="icon iconfont">&#xe604;</i>
+				<div class="name">衣服</div>
+			</a>
+			<a href="#" class="apanel" onclick="changeIcon()">
+				<i class="icon iconfont">&#xe601;</i>
+				<div class="name">饮食</div>
+			</a>
+			<a href="#" class="apanel" onclick="changeIcon()">
+				<i class="icon iconfont">&#xe605;</i>
+				<div class="name">住宿</div>
+			</a>
+			<a href="#" class="apanel middle" onclick="changeIcon()">
+				<i class="icon iconfont">&#xe600;</i>
+				<div class="name">交通</div>
+			</a>
+			<a href="#" class="apanel" onclick="changeIcon()">
+				<i class="icon iconfont">&#xe603;</i>
+				<div class="name">购物</div>
+			</a>
+		</section>
+		<footer><a href="page02.html">by 305</a></footer>
+	    <!-- 输入金额的部分 -->
+	    <div class="inputMoneyDiv" id="inputMoneyDiv">
+	    	<i class="icon iconfont">&#xe606;</i>
+	    	<input type="text" name="pay">
+	    </div>
+
+	</div>
+</body>
+</html>
